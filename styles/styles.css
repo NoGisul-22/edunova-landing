@@ -145,7 +145,6 @@ h1, h2, h3, h4, h5, h6, p {
 .courses-carousel-component {
     flex: 0 0 100vw;
     height: 100%;
-    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -182,4 +181,189 @@ h1, h2, h3, h4, h5, h6, p {
     justify-content: center;
     align-items: center;
     gap: 50px;
+}
+
+/* ====== plans Section ====== */
+
+.plans {
+    display: flex;
+    height: 100vh;
+}
+
+.plans-container {
+    flex: 1;
+    display: flex;
+    gap: 20px;
+    box-sizing: border-box;
+    padding: 80px;
+}
+
+.plans-methods {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    box-sizing: border-box;
+    gap: 20px;
+}
+
+.plans-cards {
+    flex: 2.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.plan-cards-container {
+    flex: 1;
+    display: flex;
+    gap: 20px;
+}
+
+.plan-component {
+    flex:1;
+}
+
+.plan-tittle {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.plan-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.plan-price {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.plan-info ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* ====== testimonials Section ====== */
+
+.testimonials {
+    display: flex;
+    margin-top: 10vh;
+    margin-bottom: 10vh;   
+}
+
+.testimonials-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonials h2 {
+    flex: 1;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.testimonials-content {
+    flex: 3;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-inline: 60px;
+}
+
+.testimonials-item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+/* ====== cta Section ====== */
+
+.cta {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    position: relative;
+}
+
+.cta-container img {
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    object-fit: cover;
+    position: absolute;
+}
+
+.cta-container h2 {
+    z-index: 1;
+    inset: 0;
+}
+
+.cta-container a {
+    z-index: 1;
+    inset: 0;
+
+}
+
+/* ====== Footer ====== */
+
+footer {
+    height: 20vh;
+    display: flex;
+}
+
+.footer-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.footer-content {
+    flex: 3;
+    display: flex;
+}
+
+.footer-page-logo {
+    flex: 1;
+    display: flex;
+}
+
+.footer-page-logo img {
+    width: auto;
+    height: 20vh;
+    object-fit: contain;
+}
+
+.footer-nav {
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-copyright {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

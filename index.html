@@ -189,54 +189,66 @@
           </div>
           <div class="plans-cards">
             <h3>Planes de Suscripción</h3>
-            <article class="plan-card">
-              <h4>Plan Básico</h4>
-              <p class="plan-price">150.000 COP/mes</p>
-              <p>Contenido del curso</p>
-              <ul>
-                <li>Fundamentos de la lógica</li>
-                <li>Introducción a un lenguaje (Python o JS)</li>
-                <li>Estructuras de control básicas</li>
-                <li>Funciones y estructuras de datos</li>
-              </ul>
-            </article>
-            <article class="plan-card">
-              <h4>Plan Intermedio</h4>
-              <p class="plan-price">200.000 COP/mes</p>
-              <p>Contenido del curso</p>
-              <p>Todo el contenido del plan básico más:</p>
-              <ul>
-                <li>Programación orientada a objetos (POO)</li>
-                <li>Estructuras de datos intermedias</li>
-                <li>Estructuras de datos y algoritmos</li>
-                <li>Manejo de archivos y errores</li>
-                <li>Control de versiones</li>
-                <li>Bases de datos</li>
-              </ul>
-            </article>
-            <article class="plan-card">
-              <h4>Plan Avanzado</h4>
-              <p class="plan-price">300.000 COP/mes</p>
-              <p>Contenido del curso</p>
-              <p>Contenido del plan intermedio más:</p>
-              <ul>
-                <li>Desarrollo de aplicaciones (full-stack)</li>
-                <li>Frontend moderno</li>
-                <li>Seguridad web</li>
-                <li>Arquitectura de software y rendimiento</li>
-                <li>Patrones de diseño</li>
-                <li>Pruebas y calidad del código</li>
-                <li>DevOps</li>
-              </ul>
-            </article>
+            <div class="plan-cards-container">
+              <article class="plan-component">
+                <div class="plan-tittle">
+                  <h4>Plan Básico</h4>
+                </div>
+                <div class="plan-info">
+                  <p class="plan-price">150.000 COP/mes</p>
+                  <p>Contenido del curso</p>
+                  <ul>
+                    <li>Fundamentos de la lógica</li>
+                    <li>Introducción a un lenguaje (Python o JS)</li>
+                    <li>Estructuras de control básicas</li>
+                    <li>Funciones y estructuras de datos</li>
+                  </ul>
+                </div>
+              </article>
+              <article class="plan-component">
+                <div class="plan-tittle">
+                  <h4>Plan Intermedio</h4>
+                </div>
+                <div class="plan-info">
+                  <p class="plan-price">200.000 COP/mes</p>
+                  <p>Contenido del curso</p>
+                  <p>Todo el contenido del plan básico más:</p>
+                  <ul>
+                    <li>Programación orientada a objetos (POO)</li>
+                    <li>Estructuras de datos intermedias</li>
+                    <li>Estructuras de datos y algoritmos</li>
+                    <li>Manejo de archivos y errores</li>
+                    <li>Control de versiones</li>
+                    <li>Bases de datos</li>
+                  </ul>
+                </div>
+              </article>
+              <article class="plan-component">
+                <div class="plan-tittle">
+                  <h4>Plan Avanzado</h4>
+                </div>
+                <div class="plan-info">
+                  <p class="plan-price">300.000 COP/mes</p>
+                  <p>Contenido del curso</p>
+                  <p>Contenido del plan intermedio más:</p>
+                  <ul>
+                    <li>Desarrollo de aplicaciones (full-stack)</li>
+                    <li>Frontend moderno</li>
+                    <li>Seguridad web</li>
+                    <li>Arquitectura de software y rendimiento</li>
+                    <li>Patrones de diseño</li>
+                    <li>Pruebas y calidad del código</li>
+                    <li>DevOps</li>
+                  </ul>
+                </div>
+              </article>
+            </div>
           </div>
         </div>
       </section>
       <section class="testimonials">
         <div class="testimonials-container">
-          <div class="testimonials-header">
-            <h2>Testimonios</h2>
-          </div>
+          <h2>Testimonios</h2>
           <div class="testimonials-content">
             <article class="testimonials-item">
               <img
@@ -286,8 +298,8 @@
         </div>
       </section>
       <section class="cta">
-        <!-- Se usara cta-container para poner una imagen de fondo -->
         <div class="cta-container">
+          <img src="media/cta-image.png" alt="Imagen del campus de una universidad - creada con IA" />
           <h2>¿QUIERES INICIAR?</h2>
           <a href="#" class="register-button">Registrarse</a>
         </div>
@@ -296,7 +308,9 @@
     <footer>
       <div class="footer-container">
         <div class="footer-content">
-          <div class="footer-page-logo"></div>
+          <div class="footer-page-logo">
+            <img src="media/Edunova-logo.png" alt="Logo de Edunova" />
+          </div>
           <div class="footer-nav"></div>
         </div>
         <div class="footer-copyright">
