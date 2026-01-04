@@ -1,0 +1,185 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* ====== hero Section ====== */
+
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-image {
+    flex: 1.5;
+    min-height: 0;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-content {
+    flex: 1;
+    min-height: 0;
+    display: flex;
+}
+
+.hero-text {
+    min-width: 0;
+    flex: 2;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    box-sizing: border-box;
+}
+
+.hero-logo {
+    min-width: 0;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* ====== solution Section ====== */
+
+.solution {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.solution h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.solution-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-inline: 80px;
+}
+
+.solution-component {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* ====== learning-outcomes Section ====== */
+
+.learning-outcomes {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.learning-outcomes h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.learning-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-inline: 80px;
+}
+
+.learning-component {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* ====== courses-preview Section ====== */
+
+.courses-preview {
+    display: flex;
+    flex-direction: column;
+}
+
+.courses-preview h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.courses-carousel {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.courses-carousel-track {
+    display: flex;
+    height: 100%;
+    transition: transform 0.5s ease-in-out;
+}
+
+.courses-carousel-component {
+    flex: 0 0 100vw;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+/* ====== stats Section ====== */
+
+.stats {
+    height: 100vh;
+    position: relative;   
+}
+
+.stats-image {
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    inset: 0;
+    position: absolute;
+}
+
+.stats-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}   
+
+.stats-info {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}

@@ -8,6 +8,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     />
+    <link rel="stylesheet" href="styles/styles.css" />
     <title>Edunova</title>
   </head>
   <body>
@@ -74,8 +75,8 @@
         </div>
       </section>
       <section class="learning-outcomes">
+        <h2>¿Qué aprenderás?</h2>
         <div class="learning-container">
-          <h2>¿Qué aprenderás?</h2>
           <article class="learning-component">
             <img
               src="media/learning1"
@@ -121,32 +122,34 @@
         </div>
       </section>
       <section class="courses-preview">
-        <h2>Vista previa de cursos</h2>
+        <h2>Algunos de nuestros cursos</h2>
         <div class="courses-carousel">
-          <article class="courses-carousel-component">
-            <img
-              src="media/carousel1.png"
-              alt="Imagen 1 del carrusel (aún sin agregar)"
-            />
-            <h3>Título del curso</h3>
-            <p>Breve descripción del curso.</p>
-          </article>
-          <article class="courses-carousel-component">
-            <img
-              src="media/carousel2.png"
-              alt="Imagen 2 del carrusel (aún sin agregar)"
-            />
-            <h3>Título del curso</h3>
-            <p>Breve descripción del curso.</p>
-          </article>
-          <article class="courses-carousel-component">
-            <img
-              src="media/carousel3.png"
-              alt="Imagen 3 del carrusel (aún sin agregar)"
-            />
-            <h3>Título del curso</h3>
-            <p>Breve descripción del curso.</p>
-          </article>
+          <div class="courses-carousel-track">
+            <article class="courses-carousel-component">
+              <img
+                src="media/carousel1.png"
+                alt="Imagen 1 del carrusel (aún sin agregar)"
+              />
+              <h3>Título del curso</h3>
+              <p>Breve descripción del curso.</p>
+            </article>
+            <article class="courses-carousel-component">
+              <img
+                src="media/carousel2.png"
+                alt="Imagen 2 del carrusel (aún sin agregar)"
+              />
+              <h3>Título del curso</h3>
+              <p>Breve descripción del curso.</p>
+            </article>
+            <article class="courses-carousel-component">
+              <img
+                src="media/carousel3.png"
+                alt="Imagen 3 del carrusel (aún sin agregar)"
+              />
+              <h3>Título del curso</h3>
+              <p>Breve descripción del curso.</p>
+            </article>
+          </div>
         </div>
       </section>
       <section class="stats">
@@ -157,7 +160,7 @@
           />
         </div>
         <div class="stats-info">
-          <h3>Estadísticas de Edunova</h3>
+          <h2>Estadísticas de Edunova</h2>
           <div class="stats-item">
             <i class="fa-solid fa-user"></i>
             <p><strong>10,000+</strong> estudiantes</p>
@@ -180,18 +183,9 @@
         <div class="plans-container">
           <div class="plans-methods">
             <h3>Métodos de pago</h3>
-            <img
-              src="media/plans-methods1.png"
-              alt="Imagen del método de pago Visa"
-            />
-            <img
-              src="media/plans-methods2.png"
-              alt="Imagen del método de pago Mastercard"
-            />
-            <img
-              src="media/plans-methods3.png"
-              alt="Imagen del método de pago PayPal"
-            />
+            <img src="media/plans-methods1.png" alt="Logo de Visa" />
+            <img src="media/plans-methods2.png" alt="Logo de Mastercard" />
+            <img src="media/plans-methods3.png" alt="Logo de PayPal" />
           </div>
           <div class="plans-cards">
             <h3>Planes de Suscripción</h3>
@@ -295,7 +289,7 @@
         <!-- Se usara cta-container para poner una imagen de fondo -->
         <div class="cta-container">
           <h2>¿QUIERES INICIAR?</h2>
-          <button>Registrarse</button>
+          <a href="#" class="register-button">Registrarse</a>
         </div>
       </section>
     </main>
